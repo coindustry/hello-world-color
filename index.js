@@ -10,7 +10,7 @@ function randomColor(text) {
 }
 
 app.get('/', (req, res) => {
-    res.send(randomColor('Hello World'));
+    res.send(randomColor('Hello '));
 });
 
 // Start the server only if this is the main module

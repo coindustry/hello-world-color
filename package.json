@@ -1,0 +1,26 @@
+{
+  "name": "hello-world-color",
+  "version": "1.0.0",
+  "description": "A simple Node.js project that prints Hello World in different random colors",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "color",
+    "hello world"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "chalk": "^4.1.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "supertest": "^6.2.0"
+  }
+}
